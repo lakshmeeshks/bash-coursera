@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+function guessinggame()
+{
 nfiles=$(ls | wc -l)
 while [[ 1 -eq 1 ]]
 do
@@ -17,4 +18,6 @@ echo "Smaller"
 fi
 echo "Try again"
 done
+}
+guessinggame
 
